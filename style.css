@@ -4,3 +4,71 @@ body {
     margin: 0;
     padding: 0;
 }
+
+button {
+    text-align: center;
+    padding: 1rem 2rem;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    width: 100%;
+    border: none;
+    font-size: large;
+    border-radius: 0.5rem;
+}
+
+button:hover {
+    -webkit-box-shadow: 10px 10px 30px -13px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 30px -13px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 30px -13px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+}
+
+h3 {
+    color: hsl(71, 73%, 54%);
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    padding: 0.5rem 0 0 0;
+}
+
+.container p {
+    color: hsl(218, 22%, 67%);
+}
+
+.container {
+    display: inline;
+}
+
+.second-container {
+    display: flex;
+    color: white;
+}
+
+.content {
+    padding: 4rem 4rem 1.5rem 4rem;
+}
+
+.second {
+    width: 50%;
+}
+
+.first-content {
+    background-color: hsl(179, 62%, 43%);
+}
+
+.second-content {
+    background-color: hsl(160, 60%, 40%);
+}
+
+.price-container h1 {
+    color: white;
+}
